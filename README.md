@@ -4,4 +4,4 @@ I'm Patrick (Phuong) Pho. I received my PhD in Big Data Analytics from [Universi
 
 Research interests: learning representation on graph structured data, anomaly detection, and dimensionality reduction. Recently, I'm exploring explainable AI and causal machine learning. 
 
-During my study at UCF, I had plenty of opportunities to work on interesting data science projects. You can find the summarized results of my academic as well as personal works in **Projects**.
+During my study at UCF, I had plenty of opportunities to work on interesting data science projects. You can find the summarized results of my academic as well as personal works in [Projects]({% link /projects %}).
