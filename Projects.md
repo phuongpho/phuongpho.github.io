@@ -41,5 +41,20 @@ Online social networks have a significant effect on human society and have becom
 | Simulation study covers a wide range of network topologies| Regularized framework has high predictive power and is capable of enhancing users understanding of features contribution to class assignment|
 
 ### [Link prediction with Simple Graph Convolution and regularized Simple Graph Convolution](http://www.icisdm.org/index.html)
-Link prediction is an important task on attributed graph with a wide range of useful applications.In work, we adapt the flexible regularization mechanism of regularized SGC into link prediction task with the goal of improving the interpretability of the fitted model.
+Link prediction is an important task on attributed graph with a wide range of useful applications.In work, we adapt the flexible regularization mechanism of regularized SGC for link prediction with the goal of improving the interpretability of the fitted model.
+
+| ![link_pred_diagram.png](/projects_img/Link_pred_diagram.png)|
+
+### [OUC Meter Data Science Competition](https://sciences.ucf.edu/news/statistics-students-ouc-team-up-to-tackle-power-problems/)
+The goal of this competition is to identify complex electric theft/tampering pattern in [Orlando Utilities Commission(OUC)](https://www.ouc.com/) meter reading database. We utilize temporal and spatial outlier detection approaches to discover potential suspects based on the montly ratio of water-to-electric usage. Next, the likelihood of daily tampering during a given month ia produced from the analysis of the variation of daily consumption trend.
+
+| ![ouc_dashboard.png](/projects_img/ouc_dashboard.png)|
+
+### 2019 Microsoft Scholarship - Predicting Major Depressive Disorder using genotyping data
+In this project, we developed statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presented two major challenges: high dimensionality and large proportion of missing data. We designed a novel analytics process including effective treatment for missing information and automatic variable selection. The final model contained only a sparse set of tens of SNPs yet attained high predictive power. Simulation study validates our proposed approach under a wide range of missing rates.
+
+| ![snp_result.png](/projects_img/snp_result.png) |
+
+### [Touring Plan – 2017 Big Data Competition](https://sciences.ucf.edu/news/predicting-wait-times-disney/)
+The competition was held by Touring Plans Co. and the Department of Statistics, University of Central Florida with the goal of predicting wait times for 4 popular rides at Disney World (Splash Mountain, Kilimanjaro Safaris, Toy Story Mania, Soarin'). The real-life data span over a hundred of variables with more than half-million observations. By employing various feature engineering strategies and regularization techniques, we obtain final sparse models highlighting the impact of key features while achieving best predictive power.
 
