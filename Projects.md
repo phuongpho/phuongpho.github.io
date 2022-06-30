@@ -35,7 +35,7 @@ Upon the findings of [*previous work*](https://www.mdpi.com/2078-2489/12/4/170) 
 
 ### [Exploring the Regularized SGC in application to social network data](http://workshop-proceedings.icwsm.org/abstract?id=2022_27)
 
-Online social networks have a significant effect on human society and have become an important research topic for maintaining the integrity of the common social understanding. Graph Neural Networks (GNNs) provide an efficient framework combining node features and network topology to produce accurate node classification. In this work, we study the application of [Simple Graph Convolution (SGC)](https://proceedings.mlr.press/v97/wu19e.html) and [our proposed extension (regularized SGC)](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00366-x) on a social network dataset as well as a comprehensive set of synthetic attributed graphs with varying network topologies. Our proposed framework has high predictive capability and also produces sparser model facilitating practitioner in investigation of important features relevant to class assignment.
+Online social networks have a significant effect on human society and have become an important research topic for maintaining the integrity of the common social understanding. In this work, we study the application of [Simple Graph Convolution (SGC)](https://proceedings.mlr.press/v97/wu19e.html) and [our proposed extension (regularized SGC)](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00366-x) on a social network dataset as well as a comprehensive set of synthetic attributed graphs with varying network topologies. Our proposed framework has high predictive capability and also produces sparser model facilitating practitioner in investigation of important features relevant to class assignment.
 
 | ![regsgc_graphtopo.png](/projects_img/regsgc_graphtopo.png) | ![regsgc_output.png](/projects_img/regsgc_output.png) |
 | Simulation study covers a wide range of network topologies| Regularized framework has high predictive power and is capable of enhancing users understanding of features contribution to class assignment|
@@ -43,7 +43,7 @@ Online social networks have a significant effect on human society and have becom
 ### [Link prediction with Simple Graph Convolution and regularized Simple Graph Convolution](http://www.icisdm.org/index.html)
 Link prediction is an important task on attributed graph with a wide range of useful applications.In work, we adapt the flexible regularization mechanism of regularized SGC for link prediction with the goal of improving the interpretability of the fitted model.
 
-| ![link_pred_diagram.png](/projects_img/Link_pred_diagram.png)|
+|![link_pred_diagram.png](/projects_img/Link_pred_diagram.png)|
 
 ### [OUC Meter Data Science Competition](https://sciences.ucf.edu/news/statistics-students-ouc-team-up-to-tackle-power-problems/)
 The goal of this competition is to identify complex electric theft/tampering pattern in [Orlando Utilities Commission(OUC)](https://www.ouc.com/) meter reading database. We utilize temporal and spatial outlier detection approaches to discover potential suspects based on the montly ratio of water-to-electric usage. Next, the likelihood of daily tampering during a given month ia produced from the analysis of the variation of daily consumption trend.
@@ -51,7 +51,7 @@ The goal of this competition is to identify complex electric theft/tampering pat
 | ![ouc_dashboard.png](/projects_img/ouc_dashboard.png)|
 
 ### 2019 Microsoft Scholarship - Predicting Major Depressive Disorder using genotyping data
-In this project, we developed statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presented two major challenges: high dimensionality and large proportion of missing data. We designed a novel analytics process including effective treatment for missing information and automatic variable selection. The final model contained only a sparse set of tens of SNPs yet attained high predictive power. Simulation study validates our proposed approach under a wide range of missing rates.
+In this project, we developed statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presented two major challenges: high dimensionality and large proportion of missing data. We designed a novel analytics process including effective treatment for missing information and automatic variable selection. The final model contained only a sparse set of tens of SNPs yet attained high predictive power. Simulation study validates our proposed approach under a wide range of missing rates and signal-to-noise ratios.
 
 | ![snp_result.png](/projects_img/snp_result.png) |
 

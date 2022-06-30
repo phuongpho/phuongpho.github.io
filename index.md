@@ -1,5 +1,7 @@
-# Hi friends
-
+---
+layout: single
+author_profile: true
+---
 I'm Patrick (Phuong) Pho. I received my PhD in Big Data Analytics from [University of Central Florida (UCF)](https://sciences.ucf.edu/statistics/). Before that, I had my Master's degree in Statistical Computing from UCF.
 
 Research interests: learning representation on graph structured data, anomaly detection, and dimensionality reduction. Recently, I'm exploring explainable AI and causal machine learning. 
