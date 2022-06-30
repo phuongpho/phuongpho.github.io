@@ -37,7 +37,11 @@ author:
   name    : "Patrick (Phuong) Pho"
   avatar  : "/assets/images/patrick_bio.jpg"
   bio     : "PhD in Big Data Analytics"          
-  
+
+# Reading pages
+include:
+- "_pages"
+
 defaults:
   # _pages
   - scope:
@@ -45,6 +49,7 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true
 
 plugins:
   - jekyll-feed

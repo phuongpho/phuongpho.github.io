@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: single
 title: "Projects"
-permalink: /projects
+permalink: /Projects/
+toc: true
+toc_label: "List of projects"
+toc_icon: "archive"
 ---
 
+## Journal papers and conference proceedings
 ### [Regularized Simple Graph Convolution (SGC) for improved interpretability of large datasets](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00366-x)
 
 Attributed graph is a powerful tool to model many complex systems in our world. It contains two valuable sources of information, i.e the node feautures and the network strucutre, which can be analyzed efficiently by Graph Neural Networks (GNNs) to produce accurate inference for many downstream tasks such as node classification, link prediction, etc. The exponential growth of graph structured data drives the complexity of GNNs models causing concerns about processing time and interpretability of the results. This work extended a fast GNNs framework, namely the [Simple Graph Convolution (SGC)](https://proceedings.mlr.press/v97/wu19e.html) by incorporating a flexible shrinkage scheme to produce a sparser model whose fitted parameters are capable of highlighting key node features determining the class characteristics.
@@ -45,6 +49,7 @@ Link prediction is an important task on attributed graph with a wide range of us
 
 |![link_pred_diagram.png](/projects_img/Link_pred_diagram.png)|
 
+## Personal projects
 ### [OUC Meter Data Science Competition](https://sciences.ucf.edu/news/statistics-students-ouc-team-up-to-tackle-power-problems/)
 The goal of this competition is to identify complex electric theft/tampering pattern in [Orlando Utilities Commission(OUC)](https://www.ouc.com/) meter reading database. We utilize temporal and spatial outlier detection approaches to discover potential suspects based on the montly ratio of water-to-electric usage. Next, the likelihood of daily tampering during a given month ia produced from the analysis of the variation of daily consumption trend.
 
