@@ -2,6 +2,7 @@
 layout: single
 author_profile: true
 header:
+  image: /assets/images/everglades_fl.jpg
 classes: wide
 ---
 I'm Patrick (Phuong) Pho. I received my PhD in Big Data Analytics from [University of Central Florida (UCF)](https://sciences.ucf.edu/statistics/). Before that, I had my Master's degree in Statistical Computing from UCF.

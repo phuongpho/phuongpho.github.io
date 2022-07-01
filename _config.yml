@@ -36,7 +36,12 @@ minimal_mistakes_skin: "contrast"
 author:
   name    : "Patrick (Phuong) Pho"
   avatar  : "/assets/images/patrick_bio.jpg"
-  bio     : "PhD in Big Data Analytics"          
+  bio     : "PhD in Big Data Analytics"
+  location: "Florida, USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/phuongpho"
 
 # Reading pages
 include:
