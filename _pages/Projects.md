@@ -51,12 +51,12 @@ Link prediction is an important task on attributed graph with a wide range of us
 
 ## Personal projects
 ### [OUC Meter Data Science Competition](https://sciences.ucf.edu/news/statistics-students-ouc-team-up-to-tackle-power-problems/)
-The goal of this competition is to identify complex electric theft/tampering pattern in [Orlando Utilities Commission(OUC)](https://www.ouc.com/) meter reading database. We utilize temporal and spatial outlier detection approaches to discover potential suspects based on the montly ratio of water-to-electric usage. Next, the likelihood of daily tampering during a given month ia produced from the analysis of the variation of daily consumption trend.
+The goal of this competition is to identify complex electric theft/tampering pattern in [Orlando Utilities Commission(OUC)](https://www.ouc.com/) meter reading database. We utilize temporal and spatial outlier detection approaches to discover potential suspects based on the montly ratio of water-to-electric usage. Next, the daily likelihood of tampering is obtained via the analysis of the variation of daily consumption trend for a given month.
 
 | ![ouc_dashboard.png](/projects_img/ouc_dashboard.png)|
 
 ### 2019 Microsoft Scholarship - Predicting Major Depressive Disorder using genotyping data
-In this project, we developed statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presented two major challenges: high dimensionality and large proportion of missing data. We designed a novel analytics process including effective treatment for missing information and automatic variable selection. The final model contained only a sparse set of tens of SNPs yet attained high predictive power. Simulation study validates our proposed approach under a wide range of missing rates and signal-to-noise ratios.
+In this project, we develope statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presents two major challenges: high dimensionality and large proportion of missing data. We design a novel analytics process including effective treatment for missing information and automatic variable selection. The final model has high predictive power and selects a sparse set of informative SNPs. Simulation study validates our proposed approach under a wide range of missing rates and signal-to-noise ratios.
 
 | ![snp_result.png](/projects_img/snp_result.png) |
 
