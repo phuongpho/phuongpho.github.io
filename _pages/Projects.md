@@ -5,6 +5,7 @@ permalink: /Projects/
 toc: true
 toc_label: "List of projects"
 toc_icon: "archive"
+toc_sticky: true
 ---
 
 ## Journal papers and conference proceedings
@@ -59,6 +60,18 @@ The goal of this competition is to identify complex electric theft/tampering pat
 In this project, we develope statistical models to classify patients’ disease status using over twenty thousand categorical biomarkers (SNPs). The data presents two major challenges: high dimensionality and large proportion of missing data. We design a novel analytics process including effective treatment for missing information and automatic variable selection. The final model has high predictive power and selects a sparse set of informative SNPs. Simulation study validates our proposed approach under a wide range of missing rates and signal-to-noise ratios.
 
 | ![snp_result.png](/projects_img/snp_result.png) |
+
+### Topic Modeling with Glassdoor Company Reviews
+Employment-oriented online platforms such as Glassdoor, LinkedIn, and Indeed provide anonymous employee reviews which are extremely helpful for job seekers. However, the number of online reviews is increasing exponentially and reading all available reviews takes significant amount of time. Hence, we employ topic modeling to explore useful topics to assist potential candidates in accessing hiring companies quickly. 
+
+| ![google_pros.png](/projects_img/googlepros.png) | ![google_cons.png](/projects_img/googlecons.png) |
+|Google's employees are positive about *working environment* and *job benefits*|On the other hand, they express negative opinion about *high living expenses* and *unclear career growth*|
+
+### Face recognition system
+Face recognition system is utilized to detect identity of an individual by detecting their face from digital image or video frame and matching it against a database. It has numerous application in biometrics, information security, etc. In this project, we build a simplified system capable of accessing image of an arbitrary individual and determining whether they are the target person or not.
+
+| ![face_test.png](/projects_img/test.png) | 
+
 
 ### [Touring Plan – 2017 Big Data Competition](https://sciences.ucf.edu/news/predicting-wait-times-disney/)
 The competition was held by Touring Plans Co. and the Department of Statistics, University of Central Florida with the goal of predicting wait times for 4 popular rides at Disney World (Splash Mountain, Kilimanjaro Safaris, Toy Story Mania, Soarin'). The real-life data span over a hundred of variables with more than half-million observations. By employing various feature engineering strategies and regularization techniques, we obtain final sparse models highlighting the impact of key features while achieving best predictive power.
