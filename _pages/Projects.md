@@ -6,6 +6,7 @@ toc: true
 toc_label: "List of projects"
 toc_icon: "archive"
 toc_sticky: true
+mathjax: true
 ---
 
 ## Journal papers and conference proceedings
@@ -62,7 +63,7 @@ In this project, we develope statistical models to classify patients’ disease 
 | ![snp_result.png](/projects_img/snp_result.png) |
 
 ### How to wash white clothes? Segregation or No Segregation
-The most common advice to care for white clotes is to wash them separately from colored ones. Given recent advance on laundry detergents and garment dyeing, is the longtime hangover still relevant? In this project, we set up a blocked $2^3$ factorial design of experiments and two-sample t-test to study the effect of segregation on whiteness of the garments.  
+The most common advice to care for white clotes is to wash them separately from colored ones. Given recent advance on laundry detergents and garment dyeing, is the longtime hangover still relevant? In this project, we employ a blocked $$2^3$$ factorial experiment and two-sample t-test to study the effect of segregation on whiteness of the garments.  
 
 | ![doe_anova.png](/projects_img/doe_anova.png) |
 
