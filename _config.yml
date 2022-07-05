@@ -32,8 +32,11 @@ github_username:  phuongpho
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "contrast"
+# theme: minimal-mistakes-jekyll
+# minimal_mistakes_skin: "contrast"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site author
 author:
@@ -71,7 +74,7 @@ footer:
 
 atom_feed:
   hide: true
-  
+
 # Reading pages
 include:
 - "_pages"
@@ -87,6 +90,7 @@ defaults:
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
