@@ -63,15 +63,16 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ptrpho"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/phuongpho"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: mailto:hi@patrickphophd.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/phuongpho"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/phuong-pho/"
+
 
 atom_feed:
   hide: true
