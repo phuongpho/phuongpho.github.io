@@ -18,14 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Site settings
+locale: "en-US"
 title: Patrick (Phuong) Pho
-email: your-email@example.com
+email: hi@patrickphophd.com
 description: >- # this means to ignore newlines until "baseurl:"
   Patrick (Phuong) Pho personal webpage.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://patrickphophd.com" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "phuongpho/phuongpho.github.io"
+twitter_username: ptrpho
+github_username:  phuongpho
 
 # Build settings
 #theme: minima
@@ -39,10 +42,36 @@ author:
   bio     : "PhD in Big Data Analytics"
   location: "Florida, USA"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: mailto:hi@patrickphophd.comu
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phuongpho"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/phuong-pho/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ptrpho"
 
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ptrpho"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/phuongpho"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: mailto:hi@patrickphophd.com
+
+atom_feed:
+  hide: true
+  
 # Reading pages
 include:
 - "_pages"
